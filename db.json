@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 166730491,
+      "title": "Agus 1",
+      "body": "satu"
+    },
+    {
+      "userId": 1,
+      "id": 166730494,
+      "title": "Agus 2",
+      "body": "dua"
+    },
+    {
+      "userId": 1,
+      "id": 166730495,
+      "title": "Agus 3",
+      "body": "tiga"
+    },
+    {
+      "userId": 1,
+      "id": 166731116,
+      "title": "awd12341",
+      "body": "12312adawdawda"
+    },
+    {
+      "userId": 1,
+      "id": 166731119,
+      "title": "awdawdawda1235555",
+      "body": "awdawdawdawdaw"
+    },
+    {
+      "userId": 1,
+      "id": 166731120,
+      "title": "qwdqwdqwdqwdqw",
+      "body": "qwdqwdqw1234213523523"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 
 class Child extends Component {
-    state = {
-        power: 0
+    constructor() {
+        super()
+        this.state = {
+            power: 0
+        }
+        this.handleMinus = this.handleMinus.bind(this)
     }
 
     sendPower = () => {
         this.props.handlingPower(this.state.power)
     }
 
-    handleMinus = () => {
+    handleMinus() {
         this.setState(
             { power: this.state.power - 100 }, 
             () => this.sendPower(this.state.power)
