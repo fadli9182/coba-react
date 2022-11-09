@@ -7,21 +7,21 @@ class Parent extends Component {
         power: "0"
     }
 
-    handlePower = (biji) => {
+    handlePower = (agus) => {
         this.setState({
-            power: biji
+            power: agus
         })
-        console.log(biji);
+        console.log(agus);
 
-        
+
     }
     render() {
         return(
+            <div className="container d-flex justify-content-center">
             <div className="mt-3" >
                 <Child handlingPower={this.handlePower} />
-                <button className="btn btn-primary text-center mt-5" >Muncul</button>
-                <p id="biji" style={{display: 'none'}}>Agus Berumur: {this.state.power} Tahun</p>
-
+                <p id="agus" style={{display: ''}}>Agus Berumur: {this.state.power} Tahun</p>
+            </div>
             </div>
         )
         // function muncul() {
